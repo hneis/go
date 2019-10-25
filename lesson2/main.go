@@ -24,4 +24,8 @@ func main() {
 		fmt.Println(v3)
 	}
 
+	// Задание 2
+	functions.Divde3WithoutReminderAndPrint(12)
+	functions.Divde3WithoutReminderAndPrint(13)
+	functions.Divde3WithoutReminderAndPrint(14)
 }
