@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"../lesson2/modules/functions"
+	"github.com/hneis/go/lesson2/modules/functions"
 )
 
 func main() {
