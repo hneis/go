@@ -1,1 +1,3 @@
-yes golang
+Hello golang, what golang is do. golang is nice language
+Fuck golang
+Hello aolang, what
