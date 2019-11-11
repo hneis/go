@@ -4,7 +4,6 @@ package grep
 import (
 	"bufio"
 	"io"
-	"os"
 	"strconv"
 	"strings"
 )
@@ -98,8 +97,8 @@ func (g Grep) IsMatching() bool {
 	return false
 }
 
-func (g Grep) Print() {
-	writer := bufio.NewWriter(os.Stdout)
+func (g Grep) Print(writer *bufio.Writer) {
+	// writer := bufio.NewWriter(os.Stdout)
 	for _, line := range g.lines {
 		if !g.Invert {
 			if line.IsMatching {
